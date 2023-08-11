@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - describes the main function
+ * main(void) - describes the main function
  *
  * return - Always zero meaning success
  *
