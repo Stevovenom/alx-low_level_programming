@@ -12,10 +12,12 @@ int main(void)
 	while (numbers <= '9')
 	{
 		putchar(numbers);
+		numbers++;
 	}
 	while (letters <= 'f')
 	{
 		putchar(letters);
+		letters++;
 	}
 	putchar('\n');
 	return (0);
