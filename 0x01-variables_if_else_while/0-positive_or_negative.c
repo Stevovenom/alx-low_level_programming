@@ -3,10 +3,9 @@
 #include <time.h>
 
 /**
- * main(void) - describes the main function
+ * main - describes the main function
  *
- * return - Always zero meaning success
- *
+ * Return: Always zero meaning success
  */
 int main(void)
 {
