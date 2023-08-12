@@ -10,11 +10,11 @@ int main(void)
 	int i, j, k;
 	int count = 0;
 
-	for (i = 0; i < 7; i++)
+	for (i = 0; i <= 7; i++)
 	{
-		for (j = i + 1; j < 8; j++)
+		for (j = i + 1; j <= 8; j++)
 		{
-			for (k = j + 1; k < 9; k++)
+			for (k = j + 1; k <= 9; k++)
 			{
 				if (count != 0)
 				{
