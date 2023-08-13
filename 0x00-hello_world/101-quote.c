@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * main - C program that prints out the output of the given input without using printf and puts
+ * main - prints the output of the given input without using printf and puts
  *
  * Return: should display a 1 to show success
  */
