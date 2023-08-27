@@ -5,6 +5,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <stddef.h>
 
 char *leet(char *);
 void _putchar(char c);
