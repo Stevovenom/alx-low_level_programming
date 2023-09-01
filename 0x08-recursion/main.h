@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <math.h>
 
+int pal_checker(char *s, int i, int j);
 int is_prime_number(int n);
 void _putchar(char c);
 void _puts_recursion(char *s);
