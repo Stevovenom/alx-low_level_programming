@@ -1,6 +1,12 @@
 #ifndef MAIN_HEADER_FILE
 #define MAIN_HEADER_FILE
 
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <math.h>
+#include <time.h>
+
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
