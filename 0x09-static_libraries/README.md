@@ -1,0 +1,1 @@
+The project aims to educate the knowledge of creating ones static libraries and how to use them. As the first one involves creating the main.h header file which contains the prototypes stated which are from the previous done tasks which am going to use them in the creation of my static library.
