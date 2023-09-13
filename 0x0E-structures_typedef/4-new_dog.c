@@ -2,7 +2,13 @@
 #include <stdlib.h>
 #include "dog.h"
 #include <string.h>
-
+/**
+ * new_dog - pointer to the new dog's details to be included
+ * @name: the name to the new dog to be included
+ * @age: the age to the new dog
+ * @owner: the details of the owner to the new_dog
+ * Return: the details to the new dog
+ */
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *new_dog;
