@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * struct dog - the new dog struct whose details are being initialized
+ * init_dog - input function to the code
+ * @d: the new dog struct whose details are being initialized
  * @name: name of the new dog
  * @age: the age of the dog
  * @owner: teh owner to the defined new dog
