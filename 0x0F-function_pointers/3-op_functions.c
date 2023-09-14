@@ -47,7 +47,7 @@ int op_div(int a, int b)
 
 /**
  * op_mod - the fuction finds the modulus of two numbers
- * a: the first number
+ * @a: the first number
  * @b: the second number
  * Return: the value after modulation
  */
