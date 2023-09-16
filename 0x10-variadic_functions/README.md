@@ -1,0 +1,1 @@
+The task involves the use of variadic.The only C standard library functions allowed are malloc, free and exit. Any use of functions like printf, puts, calloc, realloc and the rest are forbiidden, and the prototypes of all your functions and the prototype of the function _putchar should be included in your header file called variadic_functions.h.
