@@ -1,0 +1,1 @@
+The task generally aims to ceck the understanding of one aboout the data structure for the arrays and linked lists. It  is easier to delete and do modification for linked lists while for arrays is isn't easy as it requires iteration as the nodes arent linked to each other like in linked lists.
