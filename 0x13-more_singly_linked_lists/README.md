@@ -1,0 +1,3 @@
+A linked list is a fundamental data structure in C that consists of a sequence of nodes, where each node contains data and a reference (or pointer) to the next node in the sequence. Linked lists come in various forms, including singly linked lists, doubly linked lists, and circular linked lists.
+The tasks aims to have a clearer understanding of the tasks at hand and make oone have a better understanding about singly linked lists for data structures, where the use of nodes of data is used. 
+Also, we are trying to compare between linked lists and arrays, data retrieval, accessibility, modification land many more and the ease jbetween these within the arrays and linked lists as we major on the prototypes defined in the lists.h header file.
