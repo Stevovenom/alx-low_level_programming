@@ -1,5 +1,10 @@
 #include "lists.h"
-
+/**
+ * add_nodeint_end - the function adds a node to the end
+ * @head: a pointer to a pointer to the head of the node
+ * @n: the number of strings to be added to that particular node
+ * Return: the new_node
+ */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *temp;
