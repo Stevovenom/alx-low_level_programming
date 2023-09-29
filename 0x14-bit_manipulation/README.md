@@ -1,0 +1,1 @@
+The task is all about bit manipulation, and he use of prototype and function to accomplish ths without having to do the physical calculation fo this particular tasks. We do have the test files which we are not supposed to push them but an use them to determine if our code is working as required and is to produce the requires output.
