@@ -3,6 +3,7 @@
  * error_check - to check for errors while copying the contents
  * @file_from: the source file from which we are copying from
  * @file_to: the destination file where we are copying into
+ * @argv: the pointer to argumnet vector
  * Return: null
  */
 void error_check(int file_from, int file_to, char *argv[])
@@ -40,22 +41,18 @@ int main(int argc, char *argv[])
 
 	file_from = open(argv[1], O_RDONLY);
 	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
-
 	error_check(file_from, file_to, argv);
-	nchars = 1024;
 
+	nchars = 1024;
 	while (nchars == 1024)
 	{
 		nchars = read(file_from, buffer, 1024);
-
 		if (nchars == -1)
 			error_check(-1, 0, argv);
 		filewrite = write(file_to, buffer, nchars);
-
 		if (filewrite == -1)
 			error_check(0, -1, argv);
 	}
-
 	close_error = close(file_from);
 	if (close_error == -1)
 	{
@@ -68,7 +65,7 @@ int main(int argc, char *argv[])
 	if (close_error == -1)
 	{
 		dprintf(STDERR_FILENO, "Error:can't close fd %d\n", file_to);
-		exit (100);
+		exit(100);
 	}
 	return (0);
 }
