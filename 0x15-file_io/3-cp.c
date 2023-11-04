@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
 
 		if (nchars == -1)
 			error_check(-1, 0, argv);
-		filewrite = write(file_to, buffer, nchars);
+		filewrite = write(file_to, buffer, 1024);
 
 		if (filewrite == -1)
 			error_check(0, -1, argv);
@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
 	if (close_error == -1)
 	{
 		dprintf(STDERR_FILENO, "Error:can't close fd %d\n", file_to);
-		return (100);
+		exit (100);
 	}
 	return (0);
 }
