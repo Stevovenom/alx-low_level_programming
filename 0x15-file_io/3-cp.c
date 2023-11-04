@@ -8,13 +8,13 @@
  */
 void error_check(int file_from, int file_to, char *argv[])
 {
-	if (file_from == -1)
+	if (file_from < -1)
 	{
 		dprintf(STDERR_FILENO, "Error:can't read from %s\n", argv[1]);
 		exit(98);
 	}
 
-	if (file_to == -1)
+	if (file_to < -1)
 	{
 		dprintf(STDERR_FILENO, "Error:can't write into %s\n", argv[2]);
 		exit(99);
@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 	}
 
 	file_from = open(argv[1], O_RDONLY);
-	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
+	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 	error_check(file_from, file_to, argv);
 
 	nchars = 1024;
