@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
 
 		if (nchars == -1)
 			error_check(-1, 0, argv);
-		filewrite = write(file_to, buffer, 1024);
+		filewrite = write(file_to, buffer, nchars);
 
 		if (filewrite == -1)
 			error_check(0, -1, argv);
